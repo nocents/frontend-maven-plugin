@@ -17,7 +17,7 @@ public class NodeAndNPMInstaller {
     private static final String VERSION = "version";
 
     public static final String DEFAULT_NODEJS_DOWNLOAD_ROOT = "https://nodejs.org/dist/";
-    public static final String DEFAULT_NPM_DOWNLOAD_ROOT = "http://registry.npmjs.org/npm/-/";
+    public static final String DEFAULT_NPM_DOWNLOAD_ROOT = "https://registry.npmjs.org/npm/-/";
 
     private String nodeVersion, npmVersion, nodeDownloadRoot, npmDownloadRoot, userName, password;
 
